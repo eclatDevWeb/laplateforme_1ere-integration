@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./design/laplateforme.css" />
+    <title>Accueil | La plateforme</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-menu">
+        <div id="flex-menu">
+          <img id="logo-header" src=./design/Logo_LaPLateforme_footer.svg
+          alt="logo la plateforme_" >
+          <div class="dropdown">
+            <button class="dropbtn">
+              Formations <span class="bold-icon">v</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="coding-school.html">Coding school</a>
+              <a href="#">AI School</a>
+            </div>
+          </div>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="#">Qui sommes nous ?</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="container-contact">
+      <h1 class="h1-contact">
+        Vous souhaitez des informations ou candidater à La Plateforme_ ?
+      </h1>
+      <div id="container-form">
+        <h2 class="h2-contact">
+          Remplissez ce formulaire et nous reviendrons vers vous
+        </h2>
+        <form id="flex-form">
+          <div class="width-50">
+            <select name="formation" id="formation">
+              <optgroup label="formations">
+                <option value="formation">
+                  La formation qui vous interesse
+                </option>
+                <option value="coding-school">coding-school</option>
+                <option value="ai-school">AI School</option>
+                <option value="Bachelor IT">Bachelor IT</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="width-50">
+            <select name="entretien" id="entretien">
+              <option value="question">
+                Souhaitez-vous passer un entretien préalable au test d'entrée ?
+              </option>
+              <option value="oui">
+                Oui, je souhaite passer un entretien avec un membre de l'équipe
+                pédagogique pour avoir de plus amples informations
+              </option>
+              <option value="non">
+                Non, je souhaite candidater et passer le test d'entrée sans
+                entretien préalable
+              </option>
+            </select>
+          </div>
+          <div class="width-50">
+            <input type="text" name="prenom" id="prenom" placeholder="Prénom" />
+          </div>
+          <div class="width-50">
+            <input type="text" name="nom" id="nom" placeholder="Nom" />
+          </div>
+          <div class="width-50">
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="width-50">
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Téléphone"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="adresse"
+              id="adresse"
+              placeholder="Adresse"
+            />
+          </div>
+          <div class="width-50">
+            <input
+              type="number"
+              name="code-postal"
+              id="code-postal"
+              placeholder="code-postal"
+            />
+          </div>
+          <div class="width-50">
+            <input type="text" placeholder="Ville" />
+          </div>
+          <div class="width-50">
+            <input
+              type="text"
+              name="comment"
+              id="comment"
+              placeholder="Comment nous avez-vous connu ?"
+            />
+          </div>
+          <div class="width-50">
+            <input
+              type="text"
+              name="diplome"
+              id="diplome"
+              placeholder="Quel est votre niveau d'étude ?"
+            />
+          </div>
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <span>
+        <img
+          id="logo-footer"
+          src="./design/Logo_LaPLateforme_footer.svg"
+          alt="logo la plateforme blanc"
+        />
+      </span>
+      <nav>
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="#">Qui sommes nous ?</a></li>
+          <li><a href="coding-school.html">Coding school</a></li>
+          <li><a href="#">AI School</a></li>
+          <li>
+            <a href="#">Cyber Security School</a>
+          </li>
+          <li><a href="#">Innovation Lab</a></li>
+          <li><a href="#">Executive Education</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
